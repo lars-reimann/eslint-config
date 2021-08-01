@@ -9,3 +9,16 @@ module.exports = {
 
     overrides: [...baseOverrides],
 };
+
+// TODO (plugins)
+// react
+// react-hooks
+// jsx-a11y
+// jest
+// testing-library
+// @babel/eslint-plugin ???
+
+// TODO
+// "react/prop-types": "off",
+// "react/jsx-uses-react": "off",
+// "react/react-in-jsx-scope": "off"
