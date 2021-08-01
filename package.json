@@ -1,0 +1,28 @@
+{
+    "name": "@lars-reimann/eslint-config",
+    "version": "1.0.0",
+    "description": "Configuration for ESLint",
+    "main": "index.js",
+    "license": "MIT",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lars-reimann/eslint-config"
+    },
+    "homepage": "https://github.com/lars-reimann/eslint-config",
+    "prettier": "@lars-reimann/prettier-config",
+    "dependencies": {
+        "eslint-config-prettier": "^8.3.0"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.28.5",
+        "@typescript-eslint/parser": "^4.28.5",
+        "eslint": ">= 7"
+    },
+    "devDependencies": {
+        "@lars-reimann/prettier-config": "*"
+    }
+}
