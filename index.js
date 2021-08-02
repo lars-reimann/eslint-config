@@ -135,6 +135,14 @@ module.exports = {
             },
         ],
         'prefer-destructuring': 'off',
+
+        // Typescripts
+        '@typescript-eslint/lines-between-class-members': 'off',
+
+        // React
+        'react/prop-types': 'off',
+        'react/react-in-jsx-scope': 'off',
+        'react/require-default-props': 'off',
     },
 
     overrides: [

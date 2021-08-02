@@ -35,7 +35,15 @@ The file does not match your project config: vite.config.ts.
 The file must be included in at least one of the projects provided
 ```
 
-**Solution**:
+**Solution 1**:
+
+Ignore the file by adding it to the `.eslintignore` file:
+
+```
+vite.config.ts
+```
+
+**Solution 2**:
 
 Follow the [instructions to create a `tsconfig.eslint.json`](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/MONOREPO.md#one-root-tsconfigjson) file. Here is an example for such a file:
 
