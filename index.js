@@ -142,12 +142,35 @@ module.exports = {
         'import/no-cycle': 'off',
         'import/prefer-default-export': 'off',
 
-        // React
-        'react/destructuring-assignment': 'off',
+        // React: JSX
+        'react/jsx-no-constructed-context-values': 'error',
+        'react/jsx-no-script-url': [
+            'error',
+            [
+                {
+                    name: 'Link',
+                    props: ['to'],
+                },
+            ],
+        ],
+        'react/jsx-no-useless-fragment': 'error',
         'react/jsx-props-no-spreading': 'off',
-        'react/prop-types': 'off',
         'react/react-in-jsx-scope': 'off',
+
+        // React: Props
+        'react/prop-types': 'off',
         'react/require-default-props': 'off',
+        'react/default-props-match-prop-types': 'off',
+
+        // React: Other
+        'react/no-unstable-nested-components': 'error',
+        'react/function-component-definition': [
+            'error',
+            {
+                namedComponents: 'function-expression',
+                unnamedComponents: 'function-expression',
+            },
+        ],
     },
 
     overrides: [
