@@ -93,6 +93,7 @@ module.exports = {
         'no-useless-call': 'error',
         'prefer-regex-literals': 'error',
         'require-unicode-regexp': 'error',
+        'vars-on-top': 'off', // we don't allow var -> leads to duplicate errors
 
         // ESLint: Style
         'func-names': ['error', 'as-needed'],
