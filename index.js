@@ -136,8 +136,10 @@ module.exports = {
 
         // Typescript
         '@typescript-eslint/lines-between-class-members': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
 
         // Import
+        'import/no-cycle': 'off',
         'import/prefer-default-export': 'off',
 
         // React
