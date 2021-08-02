@@ -1,21 +1,5 @@
 module.exports = {
-    extends: [
-        // Airbnb Style Guide as base
-        'airbnb-typescript',
-
-        // Use all recommended settings
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        'plugin:import/recommended',
-        'plugin:import/typescript',
-        'plugin:react/recommended',
-        'plugin:react-hooks/recommended',
-        'plugin:jsx-a11y/recommended',
-
-        // Disable formatting rules
-        'prettier',
-    ],
+    extends: ['airbnb-typescript', 'prettier'],
 
     plugins: [
         '@typescript-eslint',
@@ -151,27 +135,6 @@ module.exports = {
             },
         ],
         'prefer-destructuring': 'off',
-
-        // Typescript: Disable unnecessary rules from ESLint (disabled in airbnb-typescript)
-        camelcase: 'off',
-        'dot-notation': 'off',
-        'no-array-constructor': 'off',
-        'no-dupe-class-members': 'off',
-        'no-empty-function': 'off',
-        'no-implied-eval': 'off',
-        'no-new-func': 'off',
-        'no-loop-func': 'off',
-        'no-magic-numbers': 'off',
-        'no-redeclare': 'off',
-        'no-shadow': 'off',
-        'no-throw-literal': 'off',
-        'no-unused-expressions': 'off',
-        'no-unused-vars': 'off',
-        'no-use-before-define': 'off',
-        'no-useless-constructor': 'off',
-        'space-before-function-paren': 'off',
-        'require-await': 'off',
-        'no-return-await': 'off',
     },
 
     overrides: [
