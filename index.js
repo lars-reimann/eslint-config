@@ -154,7 +154,7 @@ module.exports = {
         ],
         'prefer-destructuring': 'off',
 
-        // Typescript: Disable unnecessary rules from ESLint
+        // Typescript: Disable unnecessary rules from ESLint (disabled in airbnb-typescript)
         camelcase: 'off',
         'dot-notation': 'off',
         'no-array-constructor': 'off',
