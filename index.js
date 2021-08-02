@@ -46,6 +46,7 @@ module.exports = {
         ],
         'no-invalid-this': 'error',
         'no-nonoctal-decimal-escape': 'error',
+        'no-param-reassign': ['error', { props: false }],
         'no-restricted-properties': [
             'error',
             {
@@ -89,7 +90,6 @@ module.exports = {
         ],
         'no-unmodified-loop-condition': 'error',
         'no-useless-call': 'error',
-        'prefer-named-capture-group': 'error',
         'prefer-regex-literals': 'error',
         'require-unicode-regexp': 'error',
 
@@ -136,10 +136,15 @@ module.exports = {
         ],
         'prefer-destructuring': 'off',
 
-        // Typescripts
+        // Typescript
         '@typescript-eslint/lines-between-class-members': 'off',
 
+        // Import
+        'import/prefer-default-export': 'off',
+
         // React
+        'react/destructuring-assignment': 'off',
+        'react/jsx-props-no-spreading': 'off',
         'react/prop-types': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/require-default-props': 'off',
