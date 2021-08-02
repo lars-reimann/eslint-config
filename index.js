@@ -9,7 +9,6 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:import/recommended',
         'plugin:import/typescript',
-        'plugin:node/recommended',
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
         'plugin:jsx-a11y/recommended',
@@ -21,7 +20,6 @@ module.exports = {
     plugins: [
         '@typescript-eslint',
         'import',
-        'node',
         'react',
         'react-hooks',
         'jsx-a11y',
