@@ -30,7 +30,7 @@
     },
     "prettier": "@lars-reimann/prettier-config",
     "devDependencies": {
-        "@lars-reimann/prettier-config": "^4.0.0",
+        "@lars-reimann/prettier-config": "^4.0.1",
         "@tsconfig/node16": "^1.0.2"
     }
 }
