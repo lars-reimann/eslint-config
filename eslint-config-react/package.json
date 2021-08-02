@@ -1,0 +1,23 @@
+{
+    "name": "@lars-reimann/eslint-config-react",
+    "version": "1.0.0",
+    "description": "Configuration for ESLint (@lars-reimann, react, react-hooks, jsx-a11y, testing-library)",
+    "main": "index.js",
+    "license": "MIT",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lars-reimann/eslint-config",
+        "directory": "/eslint-config-react"
+    },
+    "homepage": "https://github.com/lars-reimann/eslint-config",
+    "dependencies": {
+        "@lars-reimann/eslint-config": "*"
+    },
+    "peerDependencies": {
+        "eslint": ">= 7.32.0"
+    }
+}
