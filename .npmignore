@@ -1,0 +1,6 @@
+.github/
+.editorconfig
+.eslintrc.js
+.gitattributes
+.gitignore
+tsconfig.json

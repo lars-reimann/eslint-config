@@ -1,9 +1,36 @@
 {
-    "name": "eslint-config-root",
-    "version": "0.0.1",
-    "private": true,
+    "name": "@lars-reimann/eslint-config",
+    "version": "1.0.0",
+    "description": "Configuration for ESLint",
+    "main": "index.js",
+    "license": "MIT",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lars-reimann/eslint-config"
+    },
+    "homepage": "https://github.com/lars-reimann/eslint-config",
+    "dependencies": {
+        "eslint-config-airbnb-typescript": "^12.3.1",
+        "eslint-config-prettier": "^8.3.0"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.28.5",
+        "eslint": ">= 7.32.0",
+        "eslint-plugin-import": "^2.23.4",
+        "eslint-plugin-jest": "^24.4.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-testing-library": "^4.10.1"
+    },
     "prettier": "@lars-reimann/prettier-config",
     "devDependencies": {
-        "@lars-reimann/prettier-config": "*"
+        "@lars-reimann/prettier-config": "^4.0.0",
+        "@tsconfig/node16": "^1.0.2"
     }
 }

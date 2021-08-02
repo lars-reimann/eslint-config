@@ -1,16 +1,23 @@
 # eslint-config
 
-TODO
+.eslintrc.js
 
-<!-- module.exports = {
+```js
+module.exports = {
     root: true,
-    parser: '@typescript-eslint/parser',
     parserOptions: {
-        tsconfigRootDir: __dirname,
-        project: ['./tsconfig.json'],
+        project: './tsconfig.json',
     },
-    plugins: ['@typescript-eslint'],
-    extends: [
-        '@lars-reimann/eslint-config'
-    ],
-}; -->
+    extends: '@lars-reimann',
+};
+```
+
+tsconfig.json
+
+```json
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "include": [".eslintrc.js", "index.js"],
+    "exclude": ["node_modules"]
+}
+```
