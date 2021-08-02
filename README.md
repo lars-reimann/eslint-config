@@ -47,7 +47,7 @@ vite.config.ts
 
 Follow the [instructions to create a `tsconfig.eslint.json`](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/MONOREPO.md#one-root-tsconfigjson) file. Here is an example for such a file:
 
-```json
+```js
 {
     "extends": "./tsconfig.json", // extend the actual tsconfig.json
     "compilerOptions": {
