@@ -1,6 +1,6 @@
 {
     "name": "@lars-reimann/eslint-config",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Configuration for ESLint",
     "main": "index.js",
     "license": "MIT",
