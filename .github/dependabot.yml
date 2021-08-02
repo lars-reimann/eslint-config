@@ -6,10 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: 'npm'
-    directory: '/eslint-config'
-    schedule:
-      interval: 'daily'
-  - package-ecosystem: 'npm'
-    directory: '/eslint-config-react'
+    directory: '/'
     schedule:
       interval: 'daily'
