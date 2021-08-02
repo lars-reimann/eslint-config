@@ -32,5 +32,8 @@
     "devDependencies": {
         "@lars-reimann/prettier-config": "^4.0.1",
         "@tsconfig/node16": "^1.0.2"
+    },
+    "scripts": {
+        "lint": "eslint ."
     }
 }
