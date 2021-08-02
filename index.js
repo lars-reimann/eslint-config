@@ -32,6 +32,7 @@ module.exports = {
                 checkForEach: true,
             },
         ],
+        'class-methods-use-this': 'off',
         'default-case-last': 'error',
         'default-param-last': 'error',
         eqeqeq: 'error',
@@ -92,9 +93,6 @@ module.exports = {
         'no-useless-call': 'error',
         'prefer-regex-literals': 'error',
         'require-unicode-regexp': 'error',
-
-        // ESLint: Variables
-        'no-undefined': 'error',
 
         // ESLint: Style
         'func-names': ['error', 'as-needed'],
