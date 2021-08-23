@@ -14,7 +14,7 @@
     },
     "homepage": "https://github.com/lars-reimann/eslint-config",
     "dependencies": {
-        "eslint-config-airbnb-typescript": "^12.3.1",
+        "eslint-config-airbnb-typescript": "^13.0.0",
         "eslint-config-prettier": "^8.3.0"
     },
     "peerDependencies": {
