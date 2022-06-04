@@ -141,8 +141,8 @@ module.exports = {
 
         // Import
         'import/no-cycle': 'off',
-        'import/prefer-default-export': 'off',
         'import/no-default-export': 'error',
+        'import/prefer-default-export': 'off',
 
         // React: JSX
         'react/jsx-no-constructed-context-values': 'error',
