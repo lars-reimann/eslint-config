@@ -90,6 +90,7 @@ module.exports = {
             },
         ],
         'no-unmodified-loop-condition': 'error',
+        'no-unused-vars': 'off', // covered by typescript-eslint
         'no-useless-call': 'error',
         'prefer-regex-literals': 'error',
         'require-unicode-regexp': 'error',
@@ -137,6 +138,12 @@ module.exports = {
 
         // Typescript
         '@typescript-eslint/lines-between-class-members': 'off',
+        '@typescript-eslint/no-unused-vars': [
+            'error',
+            {
+                argsIgnorePattern: '^_',
+            },
+        ],
         '@typescript-eslint/no-use-before-define': 'off',
 
         // Import
