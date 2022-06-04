@@ -141,6 +141,7 @@ module.exports = {
 
         // Import
         'import/no-cycle': 'off',
+        'import/no-default-export': 'error',
         'import/prefer-default-export': 'off',
 
         // React: JSX
