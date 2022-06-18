@@ -43,6 +43,7 @@ module.exports = {
         'default-param-last': 'error',
         eqeqeq: 'error',
         'max-classes-per-file': 'off',
+        'no-console': 'error',
         'no-constructor-return': 'error',
         'no-else-return': 'off',
         'no-implicit-coercion': [
