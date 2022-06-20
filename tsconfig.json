@@ -1,5 +1,5 @@
 {
     "extends": "@tsconfig/node16/tsconfig.json",
-    "include": [".eslintrc.js", "index.js"],
+    "include": [".eslintrc.js", "index.js", "release.config.js"],
     "exclude": ["node_modules"]
 }

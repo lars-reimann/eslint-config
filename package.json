@@ -31,7 +31,9 @@
     "prettier": "@lars-reimann/prettier-config",
     "devDependencies": {
         "@lars-reimann/prettier-config": "^5.0.0",
-        "@tsconfig/node16": "^1.0.2"
+        "@tsconfig/node16": "^1.0.2",
+        "conventional-changelog-conventionalcommits": "^5.0.0",
+        "semantic-release": "^19.0.3"
     },
     "scripts": {
         "lint": "eslint ."
