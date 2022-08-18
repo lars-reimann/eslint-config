@@ -3,4 +3,6 @@
 .eslintrc.js
 .gitattributes
 .gitignore
+.mega-linter.yml
+release.config.js
 tsconfig.json
