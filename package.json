@@ -14,19 +14,19 @@
     },
     "homepage": "https://github.com/lars-reimann/eslint-config",
     "dependencies": {
-        "eslint-config-airbnb": "^19.0.2",
-        "eslint-config-airbnb-typescript": "^14.0.2",
-        "eslint-config-prettier": "^8.3.0"
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-airbnb-typescript": "^17.0.0",
+        "eslint-config-prettier": "^8.5.0"
     },
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^4.33.0",
-        "eslint": "^7.32.0",
-        "eslint-plugin-import": "^2.25.2",
-        "eslint-plugin-jest": "^25.3.0",
-        "eslint-plugin-jsx-a11y": "^6.4.1",
-        "eslint-plugin-react": "^7.26.1",
-        "eslint-plugin-react-hooks": "^4.2.0",
-        "eslint-plugin-testing-library": "^5.0.1"
+        "@typescript-eslint/eslint-plugin": "^5.33.1",
+        "eslint": "^8.22.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^26.8.3",
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-react": "^7.30.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-testing-library": "^5.6.0"
     },
     "prettier": "@lars-reimann/prettier-config",
     "devDependencies": {
