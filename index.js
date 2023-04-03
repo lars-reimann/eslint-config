@@ -201,6 +201,10 @@ module.exports = {
                 'plugin:jest/style',
                 'plugin:testing-library/react',
             ],
+            rules: {
+                "max-expects": "off",
+                "max-nested-describes": "off",
+            },
         },
     ],
 };
