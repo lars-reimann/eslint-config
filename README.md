@@ -45,7 +45,7 @@ vite.config.ts
 
 **Solution 2**:
 
-Follow the [instructions to create a `tsconfig.eslint.json`](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/MONOREPO.md#one-root-tsconfigjson) file. Here is an example for such a file:
+Follow the [instructions to create a `tsconfig.eslint.json`](https://typescript-eslint.io/linting/typed-linting/monorepos#one-root-tsconfigjson) file. Here is an example for such a file:
 
 ```js
 {
