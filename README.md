@@ -8,7 +8,7 @@ To use this configuration:
     {
         "extends": "@tsconfig/node16/tsconfig.json",
         "include": ["src/**/*"],
-        "exclude": ["node_modules", "**/*.spec.ts"]
+        "exclude": ["node_modules", "**/*.test.ts"]
     }
     ```
 3. Create an `.eslintrc.js` file with the following content. Rreplace the path to the `tsconfig.json` file. It is also possible to specify multiple projects by passing an array to `parserOptions.project` and pointing to the `tsconfig.json` of each project:
@@ -56,33 +56,4 @@ Follow the [instructions to create a `tsconfig.eslint.json`](https://github.com/
     "include": ["src/**/*", "vite.config.ts"], // include all TypeScript files
     "exclude": ["node_modules"] // don't exclude any TypeScript files
 }
-```
-
-### Unable to detect Jest version
-
-**Example error message**:
-
-```
-Error: Error while loading rule 'jest/no-deprecated-functions': Unable to detect Jest version - please ensure jest package is installed, or otherwise set version explicitly
-Occurred while linting path/to/util.test.ts
-```
-
-**Solution**:
-Set the Jest version explicitly in your `.eslintrc.js`. Check your `package.json` to get the correct version:
-
-```js
-module.exports = {
-    root: true,
-    parserOptions: {
-        tsconfigRootDir: __dirname,
-        project: './tsconfig.json',
-    },
-    // Add this part
-    settings: {
-        jest: {
-            version: 27,
-        },
-    },
-    extends: '@lars-reimann',
-};
 ```
