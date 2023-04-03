@@ -1,21 +1,7 @@
 module.exports = {
-    extends: [
-        'plugin:import/recommended',
-        'plugin:import/typescript',
-        'airbnb-typescript',
-        'airbnb/hooks',
-        'prettier'
-    ],
+    extends: ['plugin:import/recommended', 'plugin:import/typescript', 'airbnb-typescript', 'airbnb/hooks', 'prettier'],
 
-    plugins: [
-        '@typescript-eslint',
-        'import',
-        'jsx-a11y',
-        'react',
-        'react-hooks',
-        'testing-library',
-        'vitest',
-    ],
+    plugins: ['@typescript-eslint', 'import', 'jsx-a11y', 'react', 'react-hooks', 'testing-library', 'vitest'],
 
     rules: {
         // ESLint: Errors
@@ -192,17 +178,11 @@ module.exports = {
     overrides: [
         // Only for tests
         {
-            files: [
-                '**/__tests__/**/*.[jt]s?(x)',
-                '**/?(*.)+(spec|test).[jt]s?(x)',
-            ],
-            extends: [
-                'plugin:vitest/all',
-                'plugin:testing-library/react',
-            ],
+            files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+            extends: ['plugin:vitest/all', 'plugin:testing-library/react'],
             rules: {
-                "max-expects": "off",
-                "max-nested-describes": "off",
+                'max-expects': 'off',
+                'max-nested-describes': 'off',
             },
         },
     ],
