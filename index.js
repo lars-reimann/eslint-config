@@ -181,8 +181,10 @@ module.exports = {
             files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
             extends: ['plugin:vitest/all', 'plugin:testing-library/react'],
             rules: {
-                'max-expects': 'off',
-                'max-nested-describes': 'off',
+                'vitest/max-expects': 'off',
+                'vitest/max-nested-describes': 'off',
+                'vitest/no-hooks': 'off',
+                'vitest/no-large-snapshots': 'off',
             },
         },
     ],
