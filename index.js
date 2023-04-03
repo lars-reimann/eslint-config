@@ -184,7 +184,7 @@ module.exports = {
                 'vitest/max-expects': 'off',
                 'vitest/max-nested-describes': 'off',
                 'vitest/no-hooks': 'off',
-                "vitest/no-large-snapshots": "off",
+                'vitest/no-large-snapshots': 'off',
             },
         },
     ],
