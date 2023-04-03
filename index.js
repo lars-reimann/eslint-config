@@ -10,11 +10,11 @@ module.exports = {
     plugins: [
         '@typescript-eslint',
         'import',
+        'jsx-a11y',
         'react',
         'react-hooks',
-        'jsx-a11y',
-        'jest',
         'testing-library',
+        'vitest',
     ],
 
     rules: {
@@ -197,8 +197,7 @@ module.exports = {
                 '**/?(*.)+(spec|test).[jt]s?(x)',
             ],
             extends: [
-                'plugin:jest/recommended',
-                'plugin:jest/style',
+                'plugin:vitest/all',
                 'plugin:testing-library/react',
             ],
         },
