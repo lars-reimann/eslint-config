@@ -183,6 +183,8 @@ module.exports = {
             rules: {
                 'vitest/max-expects': 'off',
                 'vitest/max-nested-describes': 'off',
+                'vitest/no-conditional-in-test': 'off',
+                'vitest/no-conditional-expect': 'off',
                 'vitest/no-hooks': 'off',
                 'vitest/no-large-snapshots': 'off',
             },
