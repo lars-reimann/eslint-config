@@ -36,5 +36,8 @@
     },
     "scripts": {
         "lint": "eslint ."
+    },
+    "publishConfig": {
+        "provenance": true
     }
 }
