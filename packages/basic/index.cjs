@@ -157,6 +157,8 @@ module.exports = {
                 'vitest/no-conditional-tests': 'off',
                 'vitest/no-hooks': 'off',
                 'vitest/no-large-snapshots': 'off',
+                'vitest/prefer-expect-assertions': 'off',
+                'vitest/prefer-lowercase-title': 'off',
             },
         },
     ],
