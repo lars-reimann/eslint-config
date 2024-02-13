@@ -1,8 +1,0 @@
-# See all available variables at https://megalinter.github.io/configuration/ and in linters documentation.
-
-EXTENDS: https://raw.githubusercontent.com/lars-reimann/.github/main/.mega-linter.yml
-
-# Commands
-PRE_COMMANDS:
-  - command: npm install eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier @typescript-eslint/eslint-plugin eslint-plugin-import eslint-plugin-vitest @lars-reimann/prettier-config",
-    cwd: workspace

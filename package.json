@@ -1,39 +1,14 @@
 {
-    "name": "@lars-reimann/eslint-config",
-    "version": "4.4.0",
-    "description": "Configuration for ESLint",
-    "main": "index.js",
-    "license": "MIT",
-    "keywords": [
-        "eslint",
-        "eslintconfig"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lars-reimann/eslint-config"
-    },
-    "homepage": "https://github.com/lars-reimann/eslint-config",
-    "dependencies": {
-        "eslint-config-airbnb": "^19.0.4",
-        "eslint-config-airbnb-typescript": "^17.0.0",
-        "eslint-config-prettier": "^9.1.0"
-    },
-    "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^6.21.0",
-        "eslint": "^8.56.0",
-        "eslint-plugin-import": "^2.29.1",
-        "eslint-plugin-vitest": "^0.3.22"
-    },
-    "prettier": "@lars-reimann/prettier-config",
-    "devDependencies": {
-        "@lars-reimann/prettier-config": "^5.1.0",
-        "conventional-changelog-conventionalcommits": "^7.0.1",
-        "semantic-release": "^23.0.2"
-    },
-    "scripts": {
-        "lint": "eslint ."
-    },
-    "publishConfig": {
-        "provenance": true
-    }
+  "name": "eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^11.0.2",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
+    "semantic-release": "^23.0.2"
+  }
 }
