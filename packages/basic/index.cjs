@@ -1,7 +1,6 @@
 module.exports = {
-    extends: ['plugin:import/recommended', 'plugin:import/typescript', 'airbnb-typescript', 'airbnb/hooks', 'prettier'],
-
-    plugins: ['@typescript-eslint', 'import', 'jsx-a11y', 'react', 'react-hooks', 'testing-library', 'vitest'],
+    extends: ['plugin:import/recommended', 'plugin:import/typescript', 'airbnb-typescript/base', 'prettier'],
+    plugins: ['@typescript-eslint', 'import', 'vitest'],
 
     rules: {
         // ESLint: Errors
@@ -143,43 +142,13 @@ module.exports = {
         'import/no-cycle': 'off',
         'import/no-default-export': 'error',
         'import/prefer-default-export': 'off',
-
-        // React: JSX
-        'react/jsx-no-constructed-context-values': 'error',
-        'react/jsx-no-script-url': [
-            'error',
-            [
-                {
-                    name: 'Link',
-                    props: ['to'],
-                },
-            ],
-        ],
-        'react/jsx-no-useless-fragment': 'error',
-        'react/jsx-props-no-spreading': 'off',
-        'react/react-in-jsx-scope': 'off',
-
-        // React: Props
-        'react/prop-types': 'off',
-        'react/require-default-props': 'off',
-        'react/default-props-match-prop-types': 'off',
-
-        // React: Other
-        'react/no-unstable-nested-components': 'error',
-        'react/function-component-definition': [
-            'error',
-            {
-                namedComponents: 'function-expression',
-                unnamedComponents: 'function-expression',
-            },
-        ],
     },
 
     overrides: [
         // Only for tests
         {
             files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
-            extends: ['plugin:vitest/all', 'plugin:testing-library/react'],
+            extends: ['plugin:vitest/all'],
             rules: {
                 'vitest/max-expects': 'off',
                 'vitest/max-nested-describes': 'off',
