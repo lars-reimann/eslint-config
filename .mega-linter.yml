@@ -4,5 +4,5 @@ EXTENDS: https://raw.githubusercontent.com/lars-reimann/.github/main/.mega-linte
 
 # Commands
 PRE_COMMANDS:
-  - command: npm install @lars-reimann/eslint-config @lars-reimann/prettier-config
+  - command: npm install eslint-config-airbnb eslint-config-airbnb-typescript eslint-config-prettier @typescript-eslint/eslint-plugin eslint-plugin-import eslint-plugin-vitest @lars-reimann/prettier-config",
     cwd: workspace
