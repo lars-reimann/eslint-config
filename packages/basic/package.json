@@ -1,6 +1,6 @@
 {
     "name": "@lars-reimann/eslint-config",
-    "version": "6.1.0",
+    "version": "6.2.0",
     "description": "Basic configuration for ESLint",
     "main": "index.cjs",
     "license": "MIT",
