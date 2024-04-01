@@ -19,7 +19,7 @@
         "eslint-config-airbnb-typescript": "^17.0.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import": "^2.29.1",
-        "eslint-plugin-vitest": "^0.3.22"
+        "eslint-plugin-vitest": "^0.4.1"
     },
     "peerDependencies": {
         "eslint": "^8.56.0"
