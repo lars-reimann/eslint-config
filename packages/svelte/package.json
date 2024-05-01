@@ -15,7 +15,7 @@
     "homepage": "https://github.com/lars-reimann/eslint-config",
     "dependencies": {
         "@lars-reimann/eslint-config": ">=6.0.1",
-        "eslint-plugin-svelte": "^2.35.1",
+        "eslint-plugin-svelte": "^2.38.0",
         "svelte": "^4.2.15"
     },
     "peerDependencies": {
