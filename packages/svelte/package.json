@@ -1,6 +1,6 @@
 {
     "name": "@lars-reimann/eslint-config-svelte",
-    "version": "7.3.0",
+    "version": "7.4.0",
     "description": "Configuration for ESLint in Svelte projects",
     "main": "index.cjs",
     "license": "MIT",
