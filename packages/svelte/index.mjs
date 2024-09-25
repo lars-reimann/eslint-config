@@ -13,29 +13,33 @@ const compat = new FlatCompat({
     allConfig: js.configs.all
 });
 
-export default [...compat.extends("@lars-reimann", "plugin:svelte/recommended"), {
-    plugins: {
-        svelte,
-    },
+export default [
+    ...compat.extends("@lars-reimann", "plugin:svelte/recommended"),
+    {
+        plugins: {
+            svelte,
+        },
 
-    languageOptions: {
-        ecmaVersion: 5,
-        sourceType: "script",
+        languageOptions: {
+            ecmaVersion: 5,
+            sourceType: "script",
 
-        parserOptions: {
-            extraFileExtensions: [".svelte"],
+            parserOptions: {
+                extraFileExtensions: [".svelte"],
+            },
         },
     },
-}, {
-    files: ["**/*.svelte"],
+    {
+        files: ["**/*.svelte"],
 
-    languageOptions: {
-        parser: parser,
-        ecmaVersion: 5,
-        sourceType: "script",
+        languageOptions: {
+            parser: parser,
+            ecmaVersion: 5,
+            sourceType: "script",
 
-        parserOptions: {
-            parser: "@typescript-eslint/parser",
+            parserOptions: {
+                parser: "@typescript-eslint/parser",
+            },
         },
-    },
-}];
+    }
+];

@@ -2,7 +2,7 @@
     "name": "@lars-reimann/eslint-config",
     "version": "7.4.0",
     "description": "Basic configuration for ESLint",
-    "main": "index.cjs",
+    "main": "index.mjs",
     "license": "MIT",
     "keywords": [
         "eslint",
