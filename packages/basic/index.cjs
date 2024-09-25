@@ -130,6 +130,7 @@ module.exports = {
 
         // Typescript
         '@typescript-eslint/lines-between-class-members': 'off',
+        '@typescript-eslint/no-throw-literal': 'off', // Removed, but still used in the AirBnB rules
         '@typescript-eslint/no-unused-vars': [
             'error',
             {
@@ -137,6 +138,7 @@ module.exports = {
             },
         ],
         '@typescript-eslint/no-use-before-define': 'off',
+        '@typescript-eslint/only-throw-error': 'error',  // New, but not yet used in the AirBnB rules
 
         // Import
         'import/no-cycle': 'off',
